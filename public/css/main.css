@@ -1,0 +1,58 @@
+body {
+    background-color: #aa8b8b;;
+    --default-color: red;
+}
+
+.title
+{
+  height: 200px;
+  width: 400px;
+}
+  .title__image
+  {
+    width: 350px;
+  }
+
+  .title__name
+  {
+    color: #454e54;
+    font-size: 2em;
+    font-weight: bold;
+   }
+ 
+.search
+{
+  height: 400px;
+  width: 400px;
+}
+
+.s-b
+{
+  border-spacing: 60px;
+}
+
+.s-b__input
+{
+  padding:40 0px;
+  border-right:none;
+  font-size: 13px;
+}
+
+.s-b__button
+{
+    color: var(--default-color);
+    padding:0 12px;
+    line-height:33px;
+    cursor:pointer;
+    font-size: 13px;
+}
+
+.f{
+  height: 126px;
+  }
+
+.f__company
+{
+  font-size: 1em;
+  font-color: green;
+}
